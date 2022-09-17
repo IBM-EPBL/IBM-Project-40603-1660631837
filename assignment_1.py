@@ -12,10 +12,10 @@ Original file is located at
 """
 
 s = "Hi there Sam!"
-
-s = "Hi there Sam!"
-a = s.split()
+a=s.split()
 print(a)
+
+
 
 """## 2. Use .format() to print the following string. 
 
@@ -24,11 +24,10 @@ print(a)
 
 planet = "Earth"
 diameter = 12742
-
-planet = "Earth"
-diameter = 12742
-txt = "The diameter of {} is {} kilometers".format(planet,diameter)
+txt="The diameter of {} kilometers".format(planet,diameter)
 print(txt)
+
+
 
 """## 3. In this nest dictionary grab the word "hello"
 """
@@ -83,11 +82,11 @@ print(con)
 """
 
 import pandas as pd
-
-import pandas as pd
 data=[['Bean',20],['Tom',15],['Jerry',10]]
 df=pd.DataFrame(data,columns=['Name','Age'])
 print(df)
+
+
 
 """## 9. Generate the series of dates from 1st Jan, 2023 to 10th Feb, 2023"""
 
@@ -102,9 +101,8 @@ lists = [[1, 'aaa', 22],
          [3, 'ccc', 24]]
 """
 
-lists = [[1, 'aaa', 22], [2, 'bbb', 25], [3, 'ccc', 24]]
-
 import pandas as pd
-lists=[[1, 'aaa', 22],[2,  'bbb', 25],[3,  'ccc', 24]]
+lists = [[1, 'aaa', 22], [2, 'bbb', 25], [3, 'ccc', 24]]
 df=pd.DataFrame(lists,columns=['SI.NO','Name','Number'])
 print(df)
+
