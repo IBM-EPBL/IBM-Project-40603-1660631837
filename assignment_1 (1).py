@@ -24,7 +24,7 @@ print(a)
 
 planet = "Earth"
 diameter = 12742
-txt="The diameter of {} is {} kilometers".format(planet,diameter)
+txt="The diameter of{} is {} kilometers".format(planet,diameter)
 print(txt)
 
 
@@ -57,7 +57,7 @@ print(array)
 """## 5. Create an array of all the even integers from 20 to 35"""
 
 import numpy as np
-array=np.arange(20,35,2)
+array=np.arange(20,32,2)
 print(array)
 
 """## 6. Create a 3x3 matrix with values ranging from 0 to 8"""
@@ -82,7 +82,7 @@ print(con)
 """
 
 import pandas as pd
-data=[['Bean,20'],['Tom',15],['Jerry',10]]
+data=[['Bean',20],['Tom',15],['Jerry',10]]
 df=pd.DataFrame(data,columns=['Name','Age'])
 print(df)
 
@@ -102,7 +102,7 @@ lists = [[1, 'aaa', 22],
 """
 
 import pandas as pd
-lists = [[1,'aaa',22], [2,'bbb',25], [3,'ccc',24]]
+lists = [[1, 'aaa', 22], [2, 'bbb', 25], [3, 'ccc', 24]]
 df=pd.DataFrame(lists,columns=['SI.NO','Name','Number'])
 print(df)
 
